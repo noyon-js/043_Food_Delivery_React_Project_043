@@ -1,0 +1,65 @@
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh 0;
+}
+
+.navber .logo img{
+    width: 10vw;
+}
+
+.navber ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vw;
+    list-style: none;
+    font-size: 1.3vw;
+}
+
+.navber li {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.navber .active {
+    border-bottom: 2px solid #73559e;
+}
+
+.navber_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.add_to_cart_icon {
+    position: relative;
+}
+
+.add_to_cart_icon .dot {
+    width: 0.5vw;
+    height: 1.2vh;
+    border-radius: 5px;
+    background-color: tomato;
+    position: absolute;
+    top: -0.8vh;
+    right: -0.2vw;
+}
+
+.navber_right button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.3vw;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    padding: 0.8vh 1.6vw;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.navber_right button:hover {
+    background-color: #ecf0f1;
+}

@@ -1,0 +1,51 @@
+.explore_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    margin-bottom: 5vh;
+}
+
+.explore_menu h1 {
+    font-size: max(3vw, 23px);
+    font-weight: 500;
+}
+
+.explore_menu_text {
+    width: 60%;
+    font-size: max(1.1vw, 12px);
+    color: #747474;
+    font-weight: 500;
+}
+
+.explore_menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+.explore_menu_list::-webkit-scrollbar {
+background-color: rgb(223, 221, 221);
+height: 0.8vw;
+}
+
+.explore_menu_list_item img {
+    width: 10vw;
+}
+
+.explore_menu_list_item p {
+    color: #747474;
+    font-size: 1.4vw;
+    margin: 1vh 0 2vh;
+    font-weight: 500;
+}
+
+.explore_menu_list_item .active {
+    border: 5px solid tomato;
+    padding: 2px;
+    border-radius: 50%;
+}
